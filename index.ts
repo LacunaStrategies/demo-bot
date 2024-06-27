@@ -20,6 +20,11 @@ program
     'The target amount of the token to swap, in lamports',
   )
   .option(
+    '-api, --api-endpoint <julian | jupiter>',
+    'The API endpoint to use',
+    'jupiter',
+  )
+  .option(
     '-im, --input-mint <address>',
     'The address of the input token mint',
     'So11111111111111111111111111111111111111112',
