@@ -1,0 +1,37 @@
+{
+  "name": "demo-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "0.29.0",
+    "@jup-ag/api": "^6.0.23",
+    "@solana/spl-token": "^0.4.7",
+    "@solana/spl-token-registry": "^0.2.4574",
+    "@solana/web3.js": "^1.93.2",
+    "bn.js": "^5.2.1",
+    "bs58": "^6.0.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "figlet": "^1.7.0",
+    "lmdb": "^3.0.12",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.2.0",
+    "promise-retry": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/figlet": "^1.5.8",
+    "@types/lodash": "^4.17.5",
+    "@types/node": "^20.14.9",
+    "@types/promise-retry": "^1.1.6",
+    "eslint": "^9.5.0",
+    "eslint-config-prettier": "^9.1.0",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  }
+}
